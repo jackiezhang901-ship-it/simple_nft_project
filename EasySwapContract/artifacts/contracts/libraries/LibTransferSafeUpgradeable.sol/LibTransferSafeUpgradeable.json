@@ -1,0 +1,10 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "LibTransferSafeUpgradeable",
+  "sourceName": "contracts/libraries/LibTransferSafeUpgradeable.sol",
+  "abi": [],
+  "bytecode": "0x60808060405234601757603a9081601d823930815050f35b600080fdfe600080fdfea2646970667358221220639c60a423379c8036c54aefa1bfed7d25ab479c0ef0c64ab2b0830511ee8b1c64736f6c63430008140033",
+  "deployedBytecode": "0x600080fdfea2646970667358221220639c60a423379c8036c54aefa1bfed7d25ab479c0ef0c64ab2b0830511ee8b1c64736f6c63430008140033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

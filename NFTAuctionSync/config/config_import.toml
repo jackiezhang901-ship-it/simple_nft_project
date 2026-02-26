@@ -1,0 +1,46 @@
+[project_cfg]
+name = "OrderBookDex"
+
+[monitor]
+pprof_enable = true
+pprof_port = 6060
+
+[log]
+compress = false
+leep_days = 7
+level = "info"
+mode = "console"
+path = "logs/relayer"
+service_name = "easyswap-sync"
+
+[db]
+database = "nft_auction_platform"
+host = "rm-bp1g0p456262ed7wzyo.mysql.rds.aliyuncs.com"
+port = 3306
+user = "zhitudao_online"
+password = "Zhitudao%2021%"
+max_open_conns = 1500
+log_level = "info"
+max_conn_max_lifetime = 300
+max_idle_conns = 10
+
+[kv]
+[[kv.redis]]
+pass = ""
+host = "127.0.0.1:6379"
+type = "node"
+
+[ankr_cfg]
+api_key="6Bf3RM8Z7ZgQWxqox-QTqsy5fjtI2yf2"
+https_url="https://sepolia.infura.io/v3/"
+#https_url="https://rpc.ankr.com/optimism"
+
+[chain_cfg]
+name="sepolia"
+id=11155111
+
+[contract_cfg]
+eth_address = "0x0000000000000000000000000000000000000000"
+weth_address = "0x4200000000000000000000000000000000000006"
+dex_address = "0x62Cc034a3461edE7D627ABe32804fA9074F7d978"
+nftAuction_address = "0x2Ac3d1FED9531A7d384eD41bb1bd4a12563c1f18"# undeploy
